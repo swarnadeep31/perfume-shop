@@ -12,7 +12,7 @@ function Navbar() {
         Maison Elara
       </h1>
       <div className="flex gap-7 text-[11px] tracking-[0.18em] uppercase">
-        <span onClick={() => navigate("/")} className="text-[#C9A84C] cursor-pointer">Home</span>
+        <span onClick={() => navigate("/")} className="text-[#555] hover:text-[#C9A84C] cursor-pointer transition">Home</span>
         <span onClick={()=> navigate("/collection")}className="text-[#555] hover:text-[#C9A84C] cursor-pointer transition">Collections</span>
         <span onClick={()=> navigate("/about")}className="text-[#555] hover:text-[#C9A84C] cursor-pointer transition">About</span>
       </div>
