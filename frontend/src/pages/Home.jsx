@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import { useEffect, useState } from "react";
 import API from "../services/api";
 
-function Home() {
+function Home () {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
